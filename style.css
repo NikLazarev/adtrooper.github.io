@@ -2931,7 +2931,7 @@ ul.linear-list li {
   }
 }
 .rounded-block-top {
-  background: url(assets/images/rounded-block-top.svg) no-repeat top right;
+  background: url(adtrooper.github.io/assets/images/rounded-block-top.svg) no-repeat top right;
   height: 25rem;
   width: 100%;
   margin-top: -17.25rem;
@@ -2950,7 +2950,7 @@ ul.linear-list li {
   }
 }
 .rounded-block-top-home_pay {
-  background: url(assets/images/rounded-block-top-main.svg) no-repeat top right;
+  background: url(adtrooper.github.io/assets/images/rounded-block-top-main.svg) no-repeat top right;
   margin-top: 0rem;
   height: 19.0625rem;
 }
@@ -2972,7 +2972,7 @@ ul.linear-list li {
 }
 .rounded-block-top::after {
   content: "";
-  background: url(assets/images/stars.svg) no-repeat top right;
+  background: url(adtrooper.github.io/assets/images/stars.svg) no-repeat top right;
   z-index: -2;
   position: absolute;
   height: 500px;
@@ -3009,7 +3009,7 @@ ul.linear-list li {
   height: 5.625rem;
 }
 .rounded-block-bottom {
-  background: url(assets/images/rounded-block-bottom.svg) no-repeat top right;
+  background: url(adtrooper.github.io/assets/images/rounded-block-bottom.svg) no-repeat top right;
   height: 12.8rem;
   width: 100%;
   margin-top: -3px;
@@ -3040,7 +3040,7 @@ ul.linear-list li {
   height: 10rem;
 }
 .rounded-block-informing {
-  background: url(assets/images/rounded-block-informing.svg) no-repeat top left;
+  background: url(adtrooper.github.io/assets/images/rounded-block-informing.svg) no-repeat top left;
   z-index: 1;
   width: 150%;
   height: 7.25rem;
@@ -3062,7 +3062,7 @@ ul.linear-list li {
 .stars {
   z-index: -1;
   position: relative;
-  background: url(assets/images/stars-5-7.svg) no-repeat;
+  background: url(adtrooper.github.io/assets/images/stars-5-7.svg) no-repeat;
   width: 240px;
   height: 238px;
 }
@@ -3077,7 +3077,7 @@ ul.linear-list li {
 }
 .stars-about-flesh {
   position: absolute;
-  background: url(assets/images/stars-5-7.svg) no-repeat top right;
+  background: url(adtrooper.github.io/assets/images/stars-5-7.svg) no-repeat top right;
   right: 4.375rem;
   top: 6.25rem;
   height: 180px;
@@ -3089,7 +3089,7 @@ ul.linear-list li {
 }
 
 .background-girls {
-  background: url(assets/images/girl-background.png) no-repeat;
+  background: url(adtrooper.github.io/assets/images/girl-background.png) no-repeat;
   margin: -6rem;
   padding-top: 6rem;
   flex-grow: 1;
@@ -3100,18 +3100,18 @@ ul.linear-list li {
 }
 @media (max-width: 1550px) {
   .background-girls {
-    background: url(assets/images/girl-background.png) no-repeat top center;
+    background: url(adtrooper.github.io/assets/images/girl-background.png) no-repeat top center;
   }
 }
 @media (max-width: 1110px) {
   .background-girls {
-    background: url(assets/images/girl-background.png) no-repeat top center;
+    background: url(adtrooper.github.io/assets/images/girl-background.png) no-repeat top center;
     width: 115%;
   }
 }
 @media (max-width: 900px) {
   .background-girls {
-    background: url(assets/images/girl-background.png) no-repeat top center;
+    background: url(adtrooper.github.io/assets/images/girl-background.png) no-repeat top center;
     width: 110%;
   }
 }
@@ -3848,11 +3848,11 @@ ul.linear-list li {
 }
 .slick-arrow.slick-prev {
   left: calc(50% - 44px);
-  background: url(assets/images//arrow-left.svg) no-repeat center center;
+  background: url(adtrooper.github.io/assets/images//arrow-left.svg) no-repeat center center;
 }
 .slick-arrow.slick-next {
   left: 55%;
-  background: url(assets/images//arrow-right.svg) no-repeat center center;
+  background: url(adtrooper.github.io/assets/images//arrow-right.svg) no-repeat center center;
 }
 
 .slick-slide {
@@ -4211,12 +4211,12 @@ ul.linear-list li {
 .home-reviews__video-content-video {
   height: 20rem;
   width: 100%;
-  background: url(assets/images/video-1.svg) no-repeat;
+  background: url(adtrooper.github.io/assets/images/video-1.svg) no-repeat;
   border-radius: 1.5rem 1.5rem 0 0;
 }
 @media (max-width: 560px) {
   .home-reviews__video-content-video {
-    background: url(assets/images/video-1.svg) no-repeat top center;
+    background: url(adtrooper.github.io/assets/images/video-1.svg) no-repeat top center;
   }
 }
 .home-reviews__video-content-info {
