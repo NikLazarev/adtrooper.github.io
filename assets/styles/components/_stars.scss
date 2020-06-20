@@ -1,0 +1,30 @@
+.stars {
+  z-index: -1;
+  position: relative;
+  background: url(#{$images-dir}stars-5-7.svg) no-repeat;
+  width: 240px;
+  height: 238px;
+
+  @media (max-width: 1110px) {
+    display: none;
+  }
+
+  &-pay {
+    margin-top: -10.5625rem;
+    margin-right: -20.3125rem;
+  }
+
+  &-about-flesh {
+    position: absolute;
+    background: url(assets/images/stars-5-7.svg) no-repeat top right;
+    right: 4.375rem;
+    top: 6.25rem;
+    height: 180px;
+
+    &-bottom {
+      left: 166px;
+      top: -66px;
+      position: absolute;
+    }
+  }
+}

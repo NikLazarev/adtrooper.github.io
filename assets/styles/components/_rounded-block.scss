@@ -1,0 +1,134 @@
+.rounded-block {
+  z-index: -2;
+  position: relative;
+
+  &-position {
+    z-index: 0;
+    @media (max-width: 1130px) {
+      display: none;
+    }
+  }
+
+  &-top {
+    background: url(#{$images-dir}rounded-block-top.svg) no-repeat top right;
+    height: 25rem;
+    width: 100%;
+    margin-top: -17.25rem;
+    @media (max-width: 840px) {
+      display: none;
+    }
+    &-about_us {
+      margin-top: -27.625rem;
+
+      @media (max-width: 1110px) {
+        display: none;
+      }
+    }
+    &-home_pay {
+      background: url(#{$images-dir}rounded-block-top-main.svg) no-repeat top
+        right;
+      margin-top: 0rem;
+      height: 19.0625rem;
+      @media (max-width: 1110px) {
+        display: none;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 90px;
+    }
+    &_home {
+      margin-top: -8rem;
+      height: 13rem;
+    }
+    &::after {
+      content: "";
+      background: url(#{$images-dir}stars.svg) no-repeat top right;
+      z-index: -2;
+      position: absolute;
+      height: 500px;
+      right: 300;
+      top: 300;
+    }
+  }
+
+  &-medium {
+    background: #082458;
+    height: 6.25rem;
+    width: 100%;
+    margin-top: -4rem;
+    @media (max-width: 1110px) {
+      display: none;
+    }
+    &-topping {
+      height: 6.25rem;
+    }
+    &-down {
+      height: 13.8125rem;
+      @media (max-width: 1110px) {
+        display: none;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 5.625rem;
+    }
+  }
+  &-bottom {
+    background: url(#{$images-dir}rounded-block-bottom.svg) no-repeat top right;
+    height: 12.8rem;
+    width: 100%;
+    margin-top: -3px;
+
+    @media (max-width: 1110px) {
+      margin-top: 115px;
+      margin-right: -102px;
+    }
+    @media (max-width: 1010px) {
+      margin-right: 0;
+      background: #082458;
+      width: 110%;
+    }
+
+    &-about-us {
+      @media (max-width: 1110px) {
+        display: none;
+      }
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 10rem;
+    }
+  }
+
+  &-informing {
+    background: url(#{$images-dir}rounded-block-informing.svg) no-repeat top
+      left;
+    z-index: 1;
+    width: 150%;
+    height: 7.25rem;
+    margin-left: -200px;
+    @media (max-width: 650px) {
+      display: none;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 10rem;
+    }
+  }
+}

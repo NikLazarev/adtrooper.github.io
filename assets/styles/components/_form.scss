@@ -1,0 +1,42 @@
+.form-group {
+  &.line {
+    display: flex;
+    flex-flow: row nowrap;
+    &__last-name {
+    }
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+
+    & > .form-group {
+      margin: 0;
+      flex-grow: 1;
+
+      & + .form-group {
+        margin-left: 0.8125rem;
+        @media (max-width: 500px) {
+          margin: 1.25rem 0 0 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  & + & {
+    margin-top: 1.0625rem;
+  }
+
+  &__label {
+    display: block;
+    padding-left: 0.3125rem;
+    margin-bottom: 0.5625rem;
+    font-size: 0.9375rem;
+    color: $body-color;
+  }
+
+  &__control {
+    &.resize-none {
+      resize: none;
+    }
+  }
+}
