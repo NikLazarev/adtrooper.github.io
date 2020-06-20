@@ -1,0 +1,43 @@
+// slick slider styles
+
+.slick-arrow {
+  position: absolute;
+  bottom: -105px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a2558 !important;
+  border: 1px solid #234485;
+  color: #fff;
+  cursor: pointer;
+  text-indent: -99999999px;
+  outline: none;
+
+  &:hover {
+    background-color: #4678fe !important;
+    border: 1px solid #4678fe;
+  }
+
+  &:after {
+    content: '';
+    width: 7px;
+    height: 14px;
+  }
+
+  &.slick-prev {
+    left: calc(50% - 44px);
+    background: url(#{$images-dir}/arrow-left.svg) no-repeat center center;
+  }
+
+  &.slick-next {
+    left: 55%;
+    background: url(#{$images-dir}/arrow-right.svg) no-repeat center center;
+  }
+}
+
+.slick-slide {
+  outline: none;
+}

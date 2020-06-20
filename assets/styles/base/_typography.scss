@@ -1,0 +1,56 @@
+/**
+ * Basic typography style for copy text
+ */
+html {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  color: $dark-grey;
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $base-font-size;
+  margin: 0;
+  background: #eef3fa;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+p {
+  color: $dark-grey;
+}
+a {
+  color: $a-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-grey;
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+dd {
+  margin-left: 25px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.title-h1 {
+  color: #082458;
+  font-family: Rubik;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0;
+}

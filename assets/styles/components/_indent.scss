@@ -1,0 +1,15 @@
+.indent {
+  width: 30px;
+  height: 3px;
+  border: none;
+  color: #4778ff;
+  background-color: #4778ff;
+  border-radius: 1rem;
+  // justify-content: flex-start;
+  margin: 1.875rem 0;
+
+  &-little {
+    margin: 1.4rem 0 0.1rem;
+    width: 21px;
+  }
+}

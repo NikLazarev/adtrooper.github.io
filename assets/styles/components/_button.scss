@@ -1,0 +1,56 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.button {
+  background: #4778ff;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8125rem 0.9375rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  border-radius: 1.8rem;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background: #5985ff;
+  }
+
+  &-green {
+    background: green;
+
+    &:hover {
+      background: #3de9af;
+    }
+  }
+
+  &-medium,
+  &-big {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  &-medium {
+    min-width: 12.75rem;
+    height: 3.75rem;
+  }
+
+  &-big {
+    width: 23.0625rem;
+    height: 5.125rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  &-big_aout-us {
+    width: 650px;
+    height: 82px;
+    border-radius: 3rem;
+    background-color: #4778ff;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+}

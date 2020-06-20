@@ -1,0 +1,134 @@
+.contact-us {
+  max-width: 67.125rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+  @media (max-width: 1110px) {
+    padding-bottom: 3rem;
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__info {
+    width: 30rem;
+
+    @media (max-width: 1070px) {
+      padding-right: 1rem;
+    }
+
+    @media (max-width: 900px) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &-description + p {
+      margin-top: 1.78rem;
+    }
+
+    &-description {
+      color: #082458;
+      font-family: Rubik;
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 1.875rem;
+    }
+  }
+
+  &__helper {
+    margin-top: 3.1875rem;
+    width: 29.9375rem;
+    height: 9.875rem;
+    background: $green-content;
+    border-radius: 1.5rem;
+
+    @media (max-width: 1110px) {
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 1070px) {
+      width: 100%;
+    }
+
+    @media (max-width: 900px) {
+      width: 29.9375rem;
+    }
+    @media (max-width: 590px) {
+      width: 100%;
+    }
+
+    &-title {
+      color: #082458;
+      font-family: Rubik;
+      font-size: 1.125rem;
+      font-weight: 500;
+      padding: 1.3125rem 1.625rem;
+      margin: 0;
+    }
+
+    &-indent {
+      height: 1px;
+      border: none;
+      color: #b4e4dd;
+      background-color: #b4e4dd;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-phone {
+      display: flex;
+      flex-direction: row;
+      &-img {
+        padding: 1.375rem 1.125rem 1.375rem 1.375rem;
+      }
+      &-number {
+        height: 100%;
+        margin: auto 0;
+        color: #082458;
+        font-family: Rubik;
+        font-size: 1.25rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  &__form {
+    width: 33.5625rem;
+    padding: 1.875rem 2.625rem 2.8125rem;
+    background: #fff;
+    border-radius: 1.25rem;
+
+    @media (max-width: 590px) {
+      width: 100%;
+      margin: 0 1rem;
+    }
+  }
+
+  &__submit {
+    margin: 2.5625rem auto 0;
+  }
+
+  &__field-message {
+    height: 9rem;
+  }
+
+  &__stars {
+    position: absolute;
+    right: 70px;
+    top: 160px;
+  }
+
+  &__rounded-block {
+    @media (max-width: 1110px) {
+      display: none;
+    }
+  }
+}
