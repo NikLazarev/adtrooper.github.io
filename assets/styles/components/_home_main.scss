@@ -271,6 +271,9 @@
   margin-top: 3.125rem;
   margin-bottom: 1rem;
   z-index: 2;
+  @media (max-width: 760px) {
+    margin-top: 4.125rem;
+  }
   @media (max-width: 740px) {
     margin-top: 5.125rem;
   }
@@ -313,31 +316,29 @@
 
   &__resourse {
     width: 100%;
-    background-color: #ffffff;
-    height: 7.375rem;
+    background-color: #fff;
     border-radius: 1rem;
-
-    padding-left: 6.875rem;
-    padding-right: 6.875rem;
+    padding: 41px 6.875rem;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     @media (max-width: 680px) {
-      justify-content: space-around;
+      display: block;
       padding-left: 0;
       padding-right: 0;
-    }
-    @media (max-width: 680px) {
+      padding-bottom: 20px;
       flex-direction: column;
       padding-top: 1.5rem;
-      height: 21rem;
     }
     a {
+      display: block;
       opacity: 0.3;
       @media (max-width: 680px) {
-        padding-bottom: 1.5rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
       }
       &:hover {
         opacity: 1;
@@ -392,7 +393,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3.125rem;
+    padding-bottom: 7.125rem;
   }
 
   &__review-slider {

@@ -20,12 +20,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 0.7rem;
     @media (max-width: 1110px) {
       width: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-bottom: 3rem;
+      padding-left: 0;
     }
   }
   &__choice {
@@ -49,6 +51,7 @@
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
+      margin-top: 2rem;
     }
   }
   &__title {
@@ -64,6 +67,9 @@
     align-items: center;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    @media (max-width: 380px) {
+      text-align: center;
+    }
   }
   &__flesh {
     margin-top: 1.25rem;
@@ -125,7 +131,7 @@
     }
   }
   &__methods {
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 29.25rem;
     height: 31.0625rem;
     @media (max-width: 600px) {
@@ -194,7 +200,7 @@
   }
   &__stars {
     right: 9.0625rem;
-    top: 11.375rem;
+    top: 13.375rem;
     width: 15.5rem;
   }
 }
