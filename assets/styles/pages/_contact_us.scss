@@ -74,7 +74,7 @@
     }
 
     &-indent {
-      height: 1px;
+      height: 0.0625rem;
       border: none;
       color: #b4e4dd;
       background-color: #b4e4dd;
@@ -95,7 +95,7 @@
         font-family: Rubik;
         font-size: 1.25rem;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 0.0625rem;
       }
     }
   }
@@ -122,8 +122,8 @@
 
   &__stars {
     position: absolute;
-    right: 70px;
-    top: 160px;
+    right: 4.375rem;
+    top: 10rem;
   }
 
   &__rounded-block {

@@ -20,7 +20,7 @@ $a-color: #337ab7; // links color
 //$color-scheme: @@@@
 
 // Font sizes
-$base-font-size: 14px;
+$base-font-size: 0.875rem;
 
 $font-roboto: "Rubik", sans-serif;
 
@@ -47,7 +47,7 @@ $dark-grey: rgb(68, 68, 68) !default;
 /// Relative or absolute URL where all assets are served from
 /// @type String
 /// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/adtrooper.github.io/assets/';
+///   $base-url: 'http://cdn.example.com/assets/';
 $assets-dir: "assets/" !default;
 $images-dir: "assets/images/" !default;
 $plugins-dir: "assets/images/" !default;

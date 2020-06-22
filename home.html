@@ -1,421 +1,535 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Home</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="/assets/slider.js"></script>
+    <script src="/assets/menu.js"></script>
+    <script src="/assets/counter.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>HTML5 SCSS Boilerplate</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" href="style.css" />
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="/adtrooper.github.io/assets/slider.js"></script>
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-block">
-        <a href="/home.html">
-          <img src="/adtrooper.github.io/assets/images/head-logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <div class="header__side">
-        <ul class="header__menu">
-          <li>
-            <a class="active" href="/home.html">Home</a>
-          </li>
-          <li>
-            <a href="/contact_us.html">Contact Us</a>
-          </li>
-          <li>
-            <a href="/about_us.html">About Us</a>
-          </li>
-        </ul>
-        <a href="#" class="header__order-button button">Order Now</a>
-      </div>
-    </div>
-  </header>
-
-  <div class="content">
-    <div class="background-girls">
-      <div class="main">
-        <div class="main__block">
-          <h1 class="title-h1 main__title">
-            Stop Annoying Ads in 60 Seconds!
-          </h1>
-          <div class="rounded-block rounded-block-informing main__informing">
-            <p>Ads are Slowing & Interrupting Your Browsing Activity:</p>
-            <p>Block Ads in 60 Seconds</p>
-          </div>
-          <div class="main__stop">
-            <img src="/adtrooper.github.io/assets/images/home/stop.svg" alt="stop" />
-            <span class="main__stop__text"> Stop Irritating Ads: </span>
-          </div>
-          <div class="main__capabilities">
-            <span class="main__capabilities__element"> Video Ads</span>
-            <span class="main__capabilities__element"> Pop Ups </span>
-            <span class="main__capabilities__element"> Banners</span>
-            <span class="main__capabilities__element"> Stiky Ads</span>
-            <span class="main__capabilities__element"> And More..</span>
-          </div>
-          <div class="main__flesh">
-            <img src="/adtrooper.github.io/assets/images/home/flesh.svg" alt="flesh" />
-          </div>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__hamburger" id="hamburger">
+          <img src="/assets/images/home/list.svg" alt="list" />
         </div>
-        <div class="main__advantage">
-          <div class="main__advantage__list">
-            <div class="main__advantage__element">
-              <img src="/adtrooper.github.io/assets/images/home/check_mark_icon.svg" alt="" />
-              <span> Instantly Block any Ad Format</span>
-            </div>
-            <div class="main__advantage__element">
-              <img src="/adtrooper.github.io/assets/images/home/check_mark_icon.svg" alt="" />
-              <span> Improve browsing speed</span>
-            </div>
-            <div class="main__advantage__element">
-              <img src="/adtrooper.github.io/assets/images/home/check_mark_icon.svg" alt="" />
-              <span> Protect your privacy</span>
-            </div>
-            <div class="main__advantage__element">
-              <img src="/adtrooper.github.io/assets/images/home/check_mark_icon.svg" alt="" />
-              <span> 30 seconds installation</span>
-            </div>
-            <div class="main__advantage__element">
-              <img src="/adtrooper.github.io/assets/images/home/check_mark_icon.svg" alt="" />
-              <span> Free fast shipping on all orders</span>
-            </div>
-          </div>
-
-          <div class="main__advantage__button-block">
-            <a href="#" class="button button-big main__advantage__button">
-              <span>Check Adtrooper Availability</span>
-              <img class="about-us__info-bottom__arow" src="/adtrooper.github.io/assets/images/about-us/2-layers.svg"
-                alt="layers" /></a>
-          </div>
+        <div class="header__menu-mobile-block" id="menu-mobile">
+          <ul class="header__menu-mobile">
+            <li>
+              <a href="/home.html" class="header__menu-mobile-element">Home</a>
+            </li>
+            <li>
+              <a href="/contact_us.html" class="header__menu-mobile-element"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a href="/about_us.html" class="header__menu-mobile-element"
+                >About Us</a
+              >
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="seen">
-        <h3 class="seen__title">Ad Blockers Been Seen On:</h3>
-        <div class="seen__resourse">
-          <a href="#">
-            <img src="/adtrooper.github.io/assets/images/home/abc.svg" alt="abc" />
-          </a>
-          <a href="#"> <img src="/adtrooper.github.io/assets/images/home/fox.svg" alt="fox" /> </a><a href="#">
-            <img src="/adtrooper.github.io/assets/images/home/NBC.svg" alt="nbc" /> </a><a href="#">
-            <img src="/adtrooper.github.io/assets/images/home/forbes.svg" alt="forbes" /> </a><a href="#">
-            <img src="/adtrooper.github.io/assets/images/home/travel_leisure.svg" alt="travel_leisure" />
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="rounded-block rounded-block-top rounded-block-top_home rounded-block-position"></div>
-    <div class="rounded-block rounded-block-medium rounded-block-medium-about_us rounded-block-position"></div>
-    <div class="background-blue">
-      <div class="home__description-block">
-        <div id="description-slider">
-          <div>
-            <div class="program-description">
-              <div class="program-description__information">
-                <h5 class="program-description__information-title">
-                  Give your Computer its life back too!
-                </h5>
-                <hr class="indent" />
-                <p>
-                  Ads are slowing down your computer and installing softwares that
-                  track your Web browsing behavior.
-                </p>
-                <p>
-                  Adtrooper will block all ads, advertising spy softwares, and
-                  enhance your computer Speed and
-                </p>
-                <p>
-                  Plug and play set up will allow you to watch videos, write emails,
-                  go on social media and browse the web all AD FREE in just 1
-                  minute!
-                </p>
-                <p>
-                  Don’t believe it? See our real customer testimonials and 5 star
-                  ratings!
-                </p>
-              </div>
-              <div class="program-description__slider">
-                <img src="/adtrooper.github.io/assets/images/slider-video-program-1.svg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="program-description">
-              <div class="program-description__information">
-                <h5 class="program-description__information-title">
-                  Give your Computer its life back too!
-                </h5>
-                <hr class="indent" />
-                <p>
-                  Ads are slowing down your computer and installing softwares that
-                  track your Web browsing behavior.
-                </p>
-                <p>
-                  Adtrooper will block all ads, advertising spy softwares, and
-                  enhance your computer Speed and
-                </p>
-                <p>
-                  Plug and play set up will allow you to watch videos, write emails,
-                  go on social media and browse the web all AD FREE in just 1
-                  minute!
-                </p>
-                <p>
-                  Don’t believe it? See our real customer testimonials and 5 star
-                  ratings!
-                </p>
-              </div>
-              <div class="program-description__slider">
-                <img src="/adtrooper.github.io/assets/images/slider-video-program-1.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="rounded-block rounded-block-medium rounded-block-medium-down"></div>
-    <div class="rounded-block rounded-block-bottom"></div>
-
-    <div class="home-reviews">
-      <div class="home-reviews__title">
-        <img src="/adtrooper.github.io/assets/images/USA-flag.svg" alt="#" class="home-reviews__title-img" />
-        <h3 class="home-reviews__title-text">
-          Real People, Real Ad Trooper Testimonials
-        </h3>
-      </div>
-      <div class="home-reviews__indent">
-        <hr class="indent" />
-      </div>
-      <div class="home-reviews__information-text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod.
-        </p>
-      </div>
-      <div class="home__review-slider">
-        <div id="review-slider">
-          <div class="home-reviews__video-content">
-            <div class="home-reviews__video-content__cart">
-              <div class="home-reviews__video-content-video"></div>
-              <div class="home-reviews__video-content__cart-info">
-                <div class="home-reviews__video-content-info">
-                  <div class="home-reviews__video-content-info_name">
-                    <h5 class="home-reviews__video-content-info_name-title">
-                      Jennifer Smith
-                    </h5>
-                    <p>CEO at Cisco</p>
-                    <hr class="indent indent-little" />
-                  </div>
-                  <div>
-                    <img src="/adtrooper.github.io/assets/images/stars-rating.svg" alt="#"
-                      class="home-reviews__video-content-info_rating" />
-                  </div>
-                </div>
-                <div class="home-reviews__video-content_text">
-                  <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-reviews__video-content">
-            <div class="home-reviews__video-content__cart">
-              <div class="home-reviews__video-content-video"></div>
-              <div class="home-reviews__video-content__cart-info">
-                <div class="home-reviews__video-content-info">
-                  <div class="home-reviews__video-content-info_name">
-                    <h5 class="home-reviews__video-content-info_name-title">
-                      Jennifer Smith
-                    </h5>
-                    <p>CEO at Cisco</p>
-                    <hr class="indent indent-little" />
-                  </div>
-                  <div>
-                    <img src="/adtrooper.github.io/assets/images/stars-rating.svg" alt="#"
-                      class="home-reviews__video-content-info_rating" />
-                  </div>
-                </div>
-                <div class="home-reviews__video-content_text">
-                  <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-reviews__video-content">
-            <div class="home-reviews__video-content__cart">
-              <div class="home-reviews__video-content-video"></div>
-              <div class="home-reviews__video-content__cart-info">
-                <div class="home-reviews__video-content-info">
-                  <div class="home-reviews__video-content-info_name">
-                    <h5 class="home-reviews__video-content-info_name-title">
-                      Jennifer Smith
-                    </h5>
-                    <p>CEO at Cisco</p>
-                    <hr class="indent indent-little" />
-                  </div>
-                  <div>
-                    <img src="/adtrooper.github.io/assets/images/stars-rating.svg" alt="#"
-                      class="home-reviews__video-content-info_rating" />
-                  </div>
-                </div>
-                <div class="home-reviews__video-content_text">
-                  <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="home-reviews__video-content">
-            <div class="home-reviews__video-content__cart">
-              <div class="home-reviews__video-content-video"></div>
-              <div class="home-reviews__video-content__cart-info">
-                <div class="home-reviews__video-content-info">
-                  <div class="home-reviews__video-content-info_name">
-                    <h5 class="home-reviews__video-content-info_name-title">
-                      Jennifer Smith
-                    </h5>
-                    <p>CEO at Cisco</p>
-                    <hr class="indent indent-little" />
-                  </div>
-                  <div>
-                    <img src="/adtrooper.github.io/assets/images/stars-rating.svg" alt="#"
-                      class="home-reviews__video-content-info_rating" />
-                  </div>
-                </div>
-                <div class="home-reviews__video-content_text">
-                  <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et."
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="rounded-block rounded-block-top rounded-block-top-home_pay"></div>
-    <div class="pay">
-      <div class="pay__block">
-        <div class="pay__choice">
-          <div class="pay__choice__block">
-            <div class="pay__title">
-              <span>Adtrooper Ad Block Stick</span>
-            </div>
-            <div class="pay__flesh">
-              <img src="/adtrooper.github.io/assets/images/home/stick_image.svg" alt="pay-flesh" />
-            </div>
-            <span class="pay__price">$ 19.99</span>
-            <span class="pay__select">Select Quantity: </span>
-            <div class="pay__counter">
-              <img src="/adtrooper.github.io/assets/images/home/minus_btn.svg" alt="minus" />
-              <span class="pay__quantity">3</span>
-              <img src="/adtrooper.github.io/assets/images/home/plus_btn.svg" alt="plus" />
-            </div>
-            <span class="pay__select-btn">Select</span>
-          </div>
-        </div>
-
-        <div class="pay__methods">
-          <h2 class="pay__methods__title">
-            Get Yours <br />While Supply Lasts!
-          </h2>
-          <hr class="indent" />
-          <div class="pay__text">
-            <span>We are so sure you will love Adtrooper, we are oﬀering 100%
-              money back guarantee! Plug Adtrooper directly on your computer
-              and start. No technology skills required. Click ‘select” to see
-              what pack deals and inventory is available for 05/01/2020!
-            </span>
-          </div>
-          <div class="pay__methods__block">
-            <span class="pay__accept">We Accept:</span>
-            <div class="pay__area">
-              <a href="#">
-                <img src="/adtrooper.github.io/assets/images/home/mastercard.svg" alt="mastercard" />
-              </a>
-              <a href="#">
-                <img src="/adtrooper.github.io/assets/images/home/visa.svg" alt="visa" />
-              </a>
-              <a href="#">
-                <img src="/adtrooper.github.io/assets/images/home/paypal.svg" alt="paypal" />
-              </a>
-              <a href="#">
-                <img src="/adtrooper.github.io/assets/images/home/amazon.svg" alt="amazon" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="footer_border_top">
-      <div class="footer__contact">
-        <div>
+        <div class="header__logo-block">
           <a href="/home.html">
-            <img src="/adtrooper.github.io/assets/images/footer/footer-logo.svg" alt="footer-logo" />
+            <img src="/assets/images/head-logo.svg" alt="Logo" />
           </a>
         </div>
-        <ul class="footer__menu">
-          <li class="footer__menu__element">
-            <a href="/contact_us.html">Contact Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="/about_us.html">About Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Blog</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Sitemap</a>
-          </li>
-        </ul>
+        <div class="header__side" id="menu">
+          <ul class="header__menu">
+            <li>
+              <a class="active" href="/home.html">Home</a>
+            </li>
+            <li>
+              <a href="/contact_us.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="/about_us.html">About Us</a>
+            </li>
+          </ul>
+          <a href="#" class="header__order-button button">Order Now</a>
+        </div>
       </div>
-    </div>
-    <div class="footer_border_bottom">
-      <div class="footer__bottom">
-        <ul class="footer__socials">
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/facebook_icon.svg" alt="facebook" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/twitter_icon.svg" alt="twitter" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/linked_in_icon.svg" alt="linkedin" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/pinterest_icon.svg" alt="pinterest" />
-            </a>
-          </li>
-        </ul>
-        <div>Copyright 2020 Adtrooper.com</div>
-      </div>
-    </div>
-  </footer>
-</body>
+    </header>
 
+    <div class="content">
+      <div class="background-girls">
+        <div class="main">
+          <div class="main__block">
+            <h1 class="title-h1 main__title">
+              Stop Annoying Ads in 60 Seconds!
+            </h1>
+            <div class="rounded-block rounded-block-informing main__informing">
+              <p>Ads are Slowing & Interrupting Your Browsing Activity:</p>
+              <p>Block Ads in 60 Seconds</p>
+            </div>
+            <div class="main__info">
+              <p>Ads are Slowing & Interrupting Your Browsing Activity:</p>
+              <p>Block Ads in 60 Seconds</p>
+            </div>
+            <div class="main__stop">
+              <img src="/assets/images/home/stop.svg" alt="stop" />
+              <span class="main__stop__text"> Stop Irritating Ads: </span>
+            </div>
+            <div class="main__capabilities">
+              <span class="main__capabilities__element"> Video Ads</span>
+              <span class="main__capabilities__element"> Pop Ups </span>
+              <span class="main__capabilities__element"> Banners</span>
+              <span class="main__capabilities__element"> Stiky Ads</span>
+              <span class="main__capabilities__element"> And More..</span>
+            </div>
+            <div class="main__capabilities-m">
+              <div class="main__capabilities-m__block">
+                <span class="main__capabilities-m__element"> Video Ads</span>
+                <span class="main__capabilities-m__element"> Pop Ups </span>
+              </div>
+              <div class="main__capabilities-m__block">
+                <span class="main__capabilities-m__element"> Banners</span>
+              </div>
+              <div class="main__capabilities-m__block">
+                <span class="main__capabilities-m__element"> Stiky Ads</span>
+                <span class="main__capabilities-m__element"> And More..</span>
+              </div>
+            </div>
+            <div class="main__flesh">
+              <img src="/assets/images/home/flesh.svg" alt="flesh" />
+            </div>
+          </div>
+          <div class="main__advantage">
+            <div class="main__advantage__list">
+              <div class="main__advantage__element">
+                <img src="/assets/images/home/check_mark_icon.svg" alt="" />
+                <span> Instantly Block any Ad Format</span>
+              </div>
+              <div class="main__advantage__element">
+                <img src="/assets/images/home/check_mark_icon.svg" alt="" />
+                <span> Improve browsing speed</span>
+              </div>
+              <div class="main__advantage__element">
+                <img src="/assets/images/home/check_mark_icon.svg" alt="" />
+                <span> Protect your privacy</span>
+              </div>
+              <div class="main__advantage__element">
+                <img src="/assets/images/home/check_mark_icon.svg" alt="" />
+                <span> 30 seconds installation</span>
+              </div>
+              <div class="main__advantage__element">
+                <img src="/assets/images/home/check_mark_icon.svg" alt="" />
+                <span> Free fast shipping on all orders</span>
+              </div>
+            </div>
+
+            <div class="main__advantage__button-block">
+              <a href="#" class="button button-big main__advantage__button">
+                <span>Check Adtrooper Availability</span>
+                <img
+                  class="about-us__info-bottom__arow"
+                  src="/assets/images/about-us/2-layers.svg"
+                  alt="layers"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="seen">
+          <h3 class="seen__title">Ad Blockers Been Seen On:</h3>
+          <div class="seen__resourse">
+            <a href="#">
+              <img src="/assets/images/home/abc.svg" alt="abc" />
+            </a>
+            <a href="#"> <img src="/assets/images/home/fox.svg" alt="fox" /> </a
+            ><a href="#">
+              <img src="/assets/images/home/NBC.svg" alt="nbc" /> </a
+            ><a href="#">
+              <img src="/assets/images/home/forbes.svg" alt="forbes" /> </a
+            ><a href="#">
+              <img
+                src="/assets/images/home/travel_leisure.svg"
+                alt="travel_leisure"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="rounded-block rounded-block-top rounded-block-top_home rounded-block-position"
+      ></div>
+      <div
+        class="rounded-block rounded-block-medium rounded-block-medium-about_us rounded-block-position"
+      ></div>
+      <div class="background-blue content_fix_width">
+        <div class="home__description-block">
+          <div id="description-slider">
+            <div>
+              <div class="program-description">
+                <div class="program-description__information">
+                  <h5 class="program-description__information-title">
+                    Give your Computer its life back too!
+                  </h5>
+                  <hr class="indent" />
+                  <p>
+                    Ads are slowing down your computer and installing softwares
+                    that track your Web browsing behavior.
+                  </p>
+                  <p>
+                    Adtrooper will block all ads, advertising spy softwares, and
+                    enhance your computer Speed and
+                  </p>
+                  <p>
+                    Plug and play set up will allow you to watch videos, write
+                    emails, go on social media and browse the web all AD FREE in
+                    just 1 minute!
+                  </p>
+                  <p>
+                    Don’t believe it? See our real customer testimonials and 5
+                    star ratings!
+                  </p>
+                </div>
+                <div class="program-description__slider">
+                  <img src="/assets/images/slider-video-program-1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="program-description">
+                <div class="program-description__information">
+                  <h5 class="program-description__information-title">
+                    Give your Computer its life back too!
+                  </h5>
+                  <hr class="indent" />
+                  <p>
+                    Ads are slowing down your computer and installing softwares
+                    that track your Web browsing behavior.
+                  </p>
+                  <p>
+                    Adtrooper will block all ads, advertising spy softwares, and
+                    enhance your computer Speed and
+                  </p>
+                  <p>
+                    Plug and play set up will allow you to watch videos, write
+                    emails, go on social media and browse the web all AD FREE in
+                    just 1 minute!
+                  </p>
+                  <p>
+                    Don’t believe it? See our real customer testimonials and 5
+                    star ratings!
+                  </p>
+                </div>
+                <div class="program-description__slider">
+                  <img src="/assets/images/slider-video-program-1.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stars stars-home main__stars"></div>
+      </div>
+      <div
+        class="rounded-block rounded-block-medium rounded-block-medium-down"
+      ></div>
+      <div class="rounded-block rounded-block-bottom"></div>
+
+      <div class="home-reviews content_fix_width">
+        <div class="home-reviews__title">
+          <img
+            src="/assets/images/USA-flag.svg"
+            alt="#"
+            class="home-reviews__title-img"
+          />
+          <h3 class="home-reviews__title-text">
+            Real People, Real Ad Trooper Testimonials
+          </h3>
+        </div>
+        <div class="home-reviews__indent">
+          <hr class="indent" />
+        </div>
+        <div class="home-reviews__information-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod.
+          </p>
+        </div>
+        <div class="home__review-slider">
+          <div id="review-slider">
+            <div class="home-reviews__video-content">
+              <div class="home-reviews__video-content__cart">
+                <div class="home-reviews__video-content-video"></div>
+                <div class="home-reviews__video-content__cart-info">
+                  <div class="home-reviews__video-content-info">
+                    <div class="home-reviews__video-content-info_name">
+                      <h5 class="home-reviews__video-content-info_name-title">
+                        Jennifer Smith
+                      </h5>
+                      <p>CEO at Cisco</p>
+                      <hr class="indent indent-little" />
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/images/stars-rating.svg"
+                        alt="#"
+                        class="home-reviews__video-content-info_rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="home-reviews__video-content_text">
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-reviews__video-content">
+              <div class="home-reviews__video-content__cart">
+                <div class="home-reviews__video-content-video"></div>
+                <div class="home-reviews__video-content__cart-info">
+                  <div class="home-reviews__video-content-info">
+                    <div class="home-reviews__video-content-info_name">
+                      <h5 class="home-reviews__video-content-info_name-title">
+                        Jennifer Smith
+                      </h5>
+                      <p>CEO at Cisco</p>
+                      <hr class="indent indent-little" />
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/images/stars-rating.svg"
+                        alt="#"
+                        class="home-reviews__video-content-info_rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="home-reviews__video-content_text">
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-reviews__video-content">
+              <div class="home-reviews__video-content__cart">
+                <div class="home-reviews__video-content-video"></div>
+                <div class="home-reviews__video-content__cart-info">
+                  <div class="home-reviews__video-content-info">
+                    <div class="home-reviews__video-content-info_name">
+                      <h5 class="home-reviews__video-content-info_name-title">
+                        Jennifer Smith
+                      </h5>
+                      <p>CEO at Cisco</p>
+                      <hr class="indent indent-little" />
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/images/stars-rating.svg"
+                        alt="#"
+                        class="home-reviews__video-content-info_rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="home-reviews__video-content_text">
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-reviews__video-content">
+              <div class="home-reviews__video-content__cart">
+                <div class="home-reviews__video-content-video"></div>
+                <div class="home-reviews__video-content__cart-info">
+                  <div class="home-reviews__video-content-info">
+                    <div class="home-reviews__video-content-info_name">
+                      <h5 class="home-reviews__video-content-info_name-title">
+                        Jennifer Smith
+                      </h5>
+                      <p>CEO at Cisco</p>
+                      <hr class="indent indent-little" />
+                    </div>
+                    <div>
+                      <img
+                        src="/assets/images/stars-rating.svg"
+                        alt="#"
+                        class="home-reviews__video-content-info_rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="home-reviews__video-content_text">
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="rounded-block rounded-block-top rounded-block-top-home_pay"
+      ></div>
+      <div class="pay content_fix_width">
+        <div class="pay__block">
+          <div class="pay__choice">
+            <div class="pay__choice__block">
+              <div class="pay__title">
+                <span>Adtrooper Ad Block Stick</span>
+              </div>
+              <div class="pay__flesh">
+                <img
+                  src="/assets/images/home/stick_image.svg"
+                  alt="pay-flesh"
+                />
+              </div>
+              <span class="pay__price"> $ <span id="price">19.99</span></span>
+              <span class="pay__select">Select Quantity: </span>
+              <div class="pay__counter">
+                <img
+                  src="/assets/images/home/minus_btn.svg"
+                  id="minus"
+                  alt="minus"
+                />
+                <span class="pay__quantity" id="quantity">3</span>
+                <img
+                  src="/assets/images/home/plus_btn.svg"
+                  id="plus"
+                  alt="plus"
+                />
+              </div>
+              <span class="pay__select-btn">Select</span>
+            </div>
+          </div>
+          <div class="stars pay__stars"></div>
+          <div class="pay__methods">
+            <h2 class="pay__methods__title">
+              Get Yours <br />While Supply Lasts!
+            </h2>
+            <hr class="indent" />
+            <div class="pay__text">
+              <span
+                >We are so sure you will love Adtrooper, we are oﬀering 100%
+                money back guarantee! Plug Adtrooper directly on your computer
+                and start. No technology skills required. Click ‘select” to see
+                what pack deals and inventory is available for 05/01/2020!
+              </span>
+            </div>
+            <div class="pay__methods__block">
+              <span class="pay__accept">We Accept:</span>
+              <div class="pay__area">
+                <a href="#">
+                  <img
+                    src="/assets/images/home/mastercard.svg"
+                    alt="mastercard"
+                  />
+                </a>
+                <a href="#">
+                  <img src="/assets/images/home/visa.svg" alt="visa" />
+                </a>
+                <a href="#">
+                  <img src="/assets/images/home/paypal.svg" alt="paypal" />
+                </a>
+                <a href="#">
+                  <img src="/assets/images/home/amazon.svg" alt="amazon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_border_top">
+        <div class="footer__contact">
+          <div>
+            <a href="/home.html">
+              <img
+                src="/assets/images/footer/footer-logo.svg"
+                alt="footer-logo"
+              />
+            </a>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu__element">
+              <a href="/contact_us.html">Contact Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="/about_us.html">About Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_border_bottom">
+        <div class="footer__bottom">
+          <ul class="footer__socials">
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/facebook_icon.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/twitter_icon.svg"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/linked_in_icon.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/pinterest_icon.svg"
+                  alt="pinterest"
+                />
+              </a>
+            </li>
+          </ul>
+          <div>Copyright 2020 Adtrooper.com</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

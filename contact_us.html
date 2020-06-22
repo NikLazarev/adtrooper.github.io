@@ -1,154 +1,231 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Contact us</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="/assets/slider.js"></script>
+    <script src="/assets/menu.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>HTML5 SCSS Boilerplate</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-block">
-        <a href="/home.html">
-          <img src="/adtrooper.github.io/assets/images/head-logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <div class="header__side">
-        <ul class="header__menu">
-          <li>
-            <a href="/home.html">Home</a>
-          </li>
-          <li>
-            <a class="active" href="/contact_us.html">Contact Us</a>
-          </li>
-          <li>
-            <a href="/about_us.html">About Us</a>
-          </li>
-        </ul>
-        <a href="#" class="header__order-button button">Order Now</a>
-      </div>
-    </div>
-  </header>
-  <div class="content">
-    <div class="contact-us">
-      <div class="contact-us__info">
-        <h1 class="title-h1">Get in touch</h1>
-        <hr class="indent" />
-        <p class="contact-us__info-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p class="contact-us__info-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua tempor
-          incididunt ut labore et dolore eseo magna aliqua.
-        </p>
-
-        <div class="contact-us__helper">
-          <p class="contact-us__helper-title">Customer Support</p>
-          <hr class="contact-us__helper-indent" />
-          <a class="contact-us__helper-phone" href="tel:1.888.488.8499">
-            <img src="/adtrooper.github.io/assets/images/phone.svg" alt="Phone" class="contact-us__helper-phone-img" />
-            <span class="contact-us__helper-phone-number">
-              1.888.488.8499
-            </span>
-          </a>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__hamburger" id="hamburger">
+          <img src="/assets/images/home/list.svg" alt="list" />
         </div>
-      </div>
-
-      <form class="contact-us__form">
-        <div class="form-group line">
-          <div class="form-group">
-            <label class="form-group__label" for="">First Name</label>
-            <input class="input" id="first-name-input" name="firstName" type="text" />
-          </div>
-          <div class="form-group line__last-name">
-            <label class="form-group__label" for="">Last Name</label>
-            <input class="input" id="last-name-input" name="lastName" type="text" />
-          </div>
+        <div class="header__menu-mobile-block" id="menu-mobile">
+          <ul class="header__menu-mobile">
+            <li>
+              <a href="/home.html" class="header__menu-mobile-element">Home</a>
+            </li>
+            <li>
+              <a href="/contact_us.html" class="header__menu-mobile-element"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a href="/about_us.html" class="header__menu-mobile-element"
+                >About Us</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="form-group">
-          <label class="form-group__label" for="">Email</label>
-          <input class="input" id="email-input" name="email" type="email" />
-        </div>
-        <div class="form-group">
-          <label class="form-group__label" for="company-input">Company</label>
-          <input class="input" id="company-input" name="company" type="text" />
-        </div>
-        <div class="form-group">
-          <label class="form-group__label" for="company-input">Your Message</label>
-          <textarea class="contact-us__field-message form-group__control resize-none input" id="message-input"
-            name="message"></textarea>
-        </div>
-        <button class="contact-us__submit button button-medium">
-          Send
-        </button>
-      </form>
-    </div>
-  </div>
-  <div class="rounded-block rounded-block-top contact-us__rounded-block">
-    <div class="stars contact-us__stars"></div>
-  </div>
-  <div class="rounded-block rounded-block-medium rounded-block-medium-about_us"></div>
-  <footer class="footer">
-    <div class="footer_border_top">
-      <div class="footer__contact">
-        <div>
+        <div class="header__logo-block">
           <a href="/home.html">
-            <img src="/adtrooper.github.io/assets/images/footer/footer-logo.svg" alt="footer-logo" />
+            <img src="/assets/images/head-logo.svg" alt="Logo" />
           </a>
         </div>
-        <ul class="footer__menu">
-          <li class="footer__menu__element">
-            <a href="/contact_us.html">Contact Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="/about_us.html">About Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Blog</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Sitemap</a>
-          </li>
-        </ul>
+        <div class="header__side" id="menu">
+          <ul class="header__menu">
+            <li>
+              <a href="/home.html">Home</a>
+            </li>
+            <li>
+              <a class="active" href="/contact_us.html">Contact Us</a>
+            </li>
+            <li>
+              <a href="/about_us.html">About Us</a>
+            </li>
+          </ul>
+          <a href="#" class="header__order-button button">Order Now</a>
+        </div>
       </div>
-    </div>
-    <div class="footer_border_bottom">
-      <div class="footer__bottom">
-        <ul class="footer__socials">
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/facebook_icon.svg" alt="facebook" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/twitter_icon.svg" alt="twitter" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/linked_in_icon.svg" alt="linkedin" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/pinterest_icon.svg" alt="pinterest" />
-            </a>
-          </li>
-        </ul>
-        <div>Copyright 2020 Adtrooper.com</div>
-      </div>
-    </div>
-  </footer>
-</body>
+    </header>
+    <div class="content">
+      <div class="contact-us content_fix_width">
+        <div class="contact-us__info">
+          <h1 class="title-h1">Get in touch</h1>
+          <hr class="indent" />
+          <p class="contact-us__info-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p class="contact-us__info-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua tempor
+            incididunt ut labore et dolore eseo magna aliqua.
+          </p>
 
+          <div class="contact-us__helper">
+            <p class="contact-us__helper-title">Customer Support</p>
+            <hr class="contact-us__helper-indent" />
+            <a class="contact-us__helper-phone" href="tel:1.888.488.8499">
+              <img
+                src="/assets/images/phone.svg"
+                alt="Phone"
+                class="contact-us__helper-phone-img"
+              />
+              <span class="contact-us__helper-phone-number">
+                1.888.488.8499
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-us__form">
+          <div class="form-group line">
+            <div class="form-group">
+              <label class="form-group__label" for="">First Name</label>
+              <input
+                class="input"
+                id="first-name-input"
+                name="firstName"
+                type="text"
+              />
+            </div>
+            <div class="form-group line__last-name">
+              <label class="form-group__label" for="">Last Name</label>
+              <input
+                class="input"
+                id="last-name-input"
+                name="lastName"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="">Email</label>
+            <input class="input" id="email-input" name="email" type="email" />
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="company-input">Company</label>
+            <input
+              class="input"
+              id="company-input"
+              name="company"
+              type="text"
+            />
+          </div>
+          <div class="form-group">
+            <label class="form-group__label" for="company-input"
+              >Your Message</label
+            >
+            <textarea
+              class="contact-us__field-message form-group__control resize-none input"
+              id="message-input"
+              name="message"
+            ></textarea>
+          </div>
+          <button class="contact-us__submit button button-medium">
+            Send
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="rounded-block rounded-block-top contact-us__rounded-block">
+      <div class="stars contact-us__stars"></div>
+    </div>
+    <div
+      class="rounded-block rounded-block-medium rounded-block-medium-about_us"
+    ></div>
+    <footer class="footer">
+      <div class="footer_border_top">
+        <div class="footer__contact">
+          <div>
+            <a href="/home.html">
+              <img
+                src="/assets/images/footer/footer-logo.svg"
+                alt="footer-logo"
+              />
+            </a>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu__element">
+              <a href="/contact_us.html">Contact Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="/about_us.html">About Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_border_bottom">
+        <div class="footer__bottom">
+          <ul class="footer__socials">
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/facebook_icon.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/twitter_icon.svg"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/linked_in_icon.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/pinterest_icon.svg"
+                  alt="pinterest"
+                />
+              </a>
+            </li>
+          </ul>
+          <div>Copyright 2020 Adtrooper.com</div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

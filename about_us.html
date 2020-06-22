@@ -1,164 +1,230 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>About us</title>
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="/assets/slider.js"></script>
+    <script src="/assets/menu.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>HTML5 SCSS Boilerplate</title>
-  <meta name="description" content="" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo-block">
-        <a href="/home.html">
-          <img src="/adtrooper.github.io/assets/images/head-logo.svg" alt="Logo" />
-        </a>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__hamburger" id="hamburger">
+          <img src="/assets/images/home/list.svg" alt="list" />
+        </div>
+        <div class="header__menu-mobile-block" id="menu-mobile">
+          <ul class="header__menu-mobile">
+            <li>
+              <a href="/home.html" class="header__menu-mobile-element">Home</a>
+            </li>
+            <li>
+              <a href="/contact_us.html" class="header__menu-mobile-element"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a href="/about_us.html" class="header__menu-mobile-element"
+                >About Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="header__logo-block">
+          <a href="/home.html">
+            <img src="/assets/images/head-logo.svg" alt="Logo" />
+          </a>
+        </div>
+        <div class="header__side" id="menu">
+          <ul class="header__menu">
+            <li>
+              <a href="/home.html">Home</a>
+            </li>
+            <li>
+              <a href="/contact_us.html">Contact Us</a>
+            </li>
+            <li>
+              <a class="active" href="/about_us.html">About Us</a>
+            </li>
+          </ul>
+          <a href="#" class="header__order-button button">Order Now</a>
+        </div>
       </div>
-      <div class="header__side">
-        <ul class="header__menu">
-          <li>
-            <a href="/home.html">Home</a>
-          </li>
-          <li>
-            <a href="/contact_us.html">Contact Us</a>
-          </li>
-          <li>
-            <a class="active" href="/about_us.html">About Us</a>
-          </li>
-        </ul>
-        <a href="#" class="header__order-button button">Order Now</a>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <div class="content">
-    <div class="about-us">
-      <div class="about-us__info-top">
-        <div class="about-us__info-top__value">
-          <h1 class="title-h1">About Adtrooper</h1>
+    <div class="content">
+      <div class="about-us content_fix_width">
+        <div class="about-us__info-top">
+          <div class="about-us__info-top__value">
+            <h1 class="title-h1">About Adtrooper</h1>
+            <hr class="indent" />
+            <p class="about-us__info-top__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+              <br />
+              <br />
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+          </div>
+          <div class="about-us__flash">
+            <img
+              src="/assets/images/about-us/That-works-USB-Stick.svg"
+              alt="USB"
+            />
+          </div>
+        </div>
+        <div class="rounded-block rounded-block-top rounded-block-top-about_us">
+          <div class="stars stars-about-flesh"></div>
+        </div>
+        <div
+          class="rounded-block rounded-block-medium rounded-block-medium-topping"
+        ></div>
+        <div class="about-us__info-middle">
+          <h2 class="title-h1 white">Another title here</h2>
           <hr class="indent" />
-          <p class="about-us__info-top__text">
+          <p class="about-us__info-middle__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
             <br />
             <br />
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
-        <div class="about-us__flash">
-          <img src="/adtrooper.github.io/assets/images/about-us/That-works-USB-Stick.svg" alt="USB" />
+        <div
+          class="rounded-block rounded-block-medium rounded-block-medium-down"
+        ></div>
+        <div
+          class="rounded-block rounded-block-bottom rounded-block-bottom-about-us"
+        >
+          <div class="stars stars-about-flesh-bottom"></div>
         </div>
-      </div>
-      <div class="rounded-block rounded-block-top rounded-block-top-about_us">
-        <div class="stars stars-about-flesh"></div>
-      </div>
-      <div class="rounded-block rounded-block-medium rounded-block-medium-topping"></div>
-      <div class="about-us__info-middle">
-        <h2 class="title-h1 white">Another title here</h2>
-        <hr class="indent" />
-        <p class="about-us__info-middle__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-          <br />
-          <br />
-          Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-          cupidatat non proident, sunt in culpa qui officia deserunt mollit
-          anim id est laborum.
-        </p>
-      </div>
-      <div class="rounded-block rounded-block-medium rounded-block-medium-down"></div>
-      <div class="rounded-block rounded-block-bottom rounded-block-bottom-about-us">
-        <div class="stars stars-about-flesh-bottom"></div>
-      </div>
-      <div class="about-us__info-bottom">
-        <div>
-          <h2 class="title-h1">Another title here</h2>
-          <hr class="indent" />
-          <div class="about-us__info-bottom__value">
-            <p class="about-us__info-bottom__text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis.
-            </p>
+        <div class="about-us__info-bottom">
+          <div>
+            <h2 class="title-h1">Another title here</h2>
+            <hr class="indent" />
+            <div class="about-us__info-bottom__value">
+              <p class="about-us__info-bottom__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis.
+              </p>
+            </div>
           </div>
+          <a
+            href="#"
+            class="header__button button button-big_aout-us about-us__info-bottom__button"
+          >
+            <span>Button</span>
+            <img
+              class="about-us__info-bottom__arow"
+              src="/assets/images/about-us/2-layers.svg"
+              alt="layers"
+          /></a>
         </div>
-        <a href="#" class="header__button button button-big_aout-us about-us__info-bottom__button">
-          <span>Button</span>
-          <img class="about-us__info-bottom__arow" src="/adtrooper.github.io/assets/images/about-us/2-layers.svg"
-            alt="layers" /></a>
       </div>
     </div>
-  </div>
 
-  <footer class="footer">
-    <div class="footer_border_top">
-      <div class="footer__contact">
-        <div>
-          <a href="/home.html">
-            <img src="/adtrooper.github.io/assets/images/footer/footer-logo.svg" alt="footer-logo" />
-          </a>
+    <footer class="footer">
+      <div class="footer_border_top">
+        <div class="footer__contact">
+          <div>
+            <a href="/home.html">
+              <img
+                src="/assets/images/footer/footer-logo.svg"
+                alt="footer-logo"
+              />
+            </a>
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu__element">
+              <a href="/contact_us.html">Contact Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="/about_us.html">About Us</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__menu__element">
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
         </div>
-        <ul class="footer__menu">
-          <li class="footer__menu__element">
-            <a href="/contact_us.html">Contact Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="/about_us.html">About Us</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Blog</a>
-          </li>
-          <li class="footer__menu__element">
-            <a href="#">Sitemap</a>
-          </li>
-        </ul>
       </div>
-    </div>
-    <div class="footer_border_bottom">
-      <div class="footer__bottom">
-        <ul class="footer__socials">
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/facebook_icon.svg" alt="facebook" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/twitter_icon.svg" alt="twitter" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/linked_in_icon.svg" alt="linkedin" />
-            </a>
-          </li>
-          <li class="footer__social">
-            <a href="#">
-              <img src="/adtrooper.github.io/assets/images/footer/pinterest_icon.svg" alt="pinterest" />
-            </a>
-          </li>
-        </ul>
-        <div>Copyright 2020 Adtrooper.com</div>
+      <div class="footer_border_bottom">
+        <div class="footer__bottom">
+          <ul class="footer__socials">
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/facebook_icon.svg"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/twitter_icon.svg"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/linked_in_icon.svg"
+                  alt="linkedin"
+                />
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <img
+                  src="/assets/images/footer/pinterest_icon.svg"
+                  alt="pinterest"
+                />
+              </a>
+            </li>
+          </ul>
+          <div>Copyright 2020 Adtrooper.com</div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

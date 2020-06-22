@@ -2,11 +2,15 @@
   z-index: -1;
   position: relative;
   background: url(#{$images-dir}stars-5-7.svg) no-repeat;
-  width: 240px;
-  height: 238px;
+  width: 15rem;
+  height: 14.875rem;
 
-  @media (max-width: 1110px) {
+  @media (max-width: 1130px) {
     display: none;
+  }
+
+  &-home {
+    position: absolute;
   }
 
   &-pay {
@@ -19,11 +23,11 @@
     background: url(assets/images/stars-5-7.svg) no-repeat top right;
     right: 4.375rem;
     top: 6.25rem;
-    height: 180px;
+    height: 11.25rem;
 
     &-bottom {
-      left: 166px;
-      top: -66px;
+      left: 10.375rem;
+      top: -4.125rem;
       position: absolute;
     }
   }

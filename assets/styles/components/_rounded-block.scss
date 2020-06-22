@@ -39,7 +39,7 @@
       position: absolute;
       right: 0;
       top: 0;
-      height: 90px;
+      height: 5.625rem;
     }
     &_home {
       margin-top: -8rem;
@@ -50,7 +50,7 @@
       background: url(#{$images-dir}stars.svg) no-repeat top right;
       z-index: -2;
       position: absolute;
-      height: 500px;
+      height: 31.25rem;
       right: 300;
       top: 300;
     }
@@ -69,8 +69,13 @@
     }
     &-down {
       height: 13.8125rem;
-      @media (max-width: 1110px) {
-        display: none;
+      margin-top: -5.5rem;
+
+      @media (max-width: 1600px) {
+        margin-top: -11.5rem;
+      }
+      @media (max-width: 1100px) {
+        margin-top: -11.5rem;
       }
     }
 
@@ -86,16 +91,29 @@
     background: url(#{$images-dir}rounded-block-bottom.svg) no-repeat top right;
     height: 12.8rem;
     width: 100%;
-    margin-top: -3px;
+    margin-top: -0.1875rem;
 
     @media (max-width: 1110px) {
-      margin-top: 115px;
-      margin-right: -102px;
+      margin-top: -0.625rem;
+      margin-right: 0rem;
     }
+
     @media (max-width: 1010px) {
       margin-right: 0;
       background: #082458;
-      width: 110%;
+      width: 100%;
+    }
+    @media (max-width: 1000px) {
+      display: none;
+    }
+    @media (max-width: 990px) {
+      height: 10rem;
+    }
+    @media (max-width: 940px) {
+      display: block;
+    }
+    @media (max-width: 500px) {
+      display: none;
     }
 
     &-about-us {
@@ -119,7 +137,7 @@
     z-index: 1;
     width: 150%;
     height: 7.25rem;
-    margin-left: -200px;
+    margin-left: -12.5rem;
     @media (max-width: 650px) {
       display: none;
     }

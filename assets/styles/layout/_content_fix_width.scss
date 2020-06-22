@@ -1,0 +1,7 @@
+.content_fix_width {
+  @media (max-width: 1110px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+}
